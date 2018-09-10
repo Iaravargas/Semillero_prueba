@@ -1,0 +1,73 @@
+---
+title: "Elementos basicos de Rmarkdown"
+author: "Iara Vargas Rua"
+date: "10 de septiembre de 2018"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# ¿Que es estadistica?
+
+La estadística podría definirse como la ciencia que se encarga de recopilar, organizar, procesar, analizar e interpretar datos con el fin de deducir las características de una población objetivo, pero esta sería solo una visión estrecha de lo que comprende esta rama del saber. A continuación se hace una muy breve introducción teórica al amplio concepto de la estadística.
+
+## Subtitulo
+
+Este es un subtitulo..
+
+### Subtitulo 2
+
+Este es un subtitulo con encabezado tipo 3 (###)
+
+# Viñetas
+las viñetas en Rmarkdown se agregan con los operadores +,- o *.
+
+- Viñeta 1
+    - Subviñeta 1
+        - Subviñeta 1.1
+    + Subviñeta 2
+    * Subviñeta 3
+    
++ Viñeta 2
+* Viñeta 3
+
+# Agregar una Imagen
+
+![](descarga.jpg)
+
+<center>
+![](descarga.jpg)
+</center>
+
+# Hipervinculo
+
+  - https://github.com/Iaravargas/Semillero_prueba
+  - [click aqui para abrir](https://github.com/Iaravargas/Semillero_prueba)
+  
+# opciones de texto
+
+*esto es cursiva*  
+**esto es negrilla**  
+***esto es negrilla y cursiva***
+
+# Grafico con r
+
+
+```{r}
+plot(iris)
+
+```
+
+
+    
+
+
+
+
+
+
